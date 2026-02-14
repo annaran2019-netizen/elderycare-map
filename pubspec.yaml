@@ -1,0 +1,16 @@
+name: elderycare_map
+description: ElderyCare Map App
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_maps_flutter: ^2.6.0
+
+flutter:
+  uses-material-design: true
